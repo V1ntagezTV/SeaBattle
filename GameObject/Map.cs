@@ -97,22 +97,22 @@ namespace WarShips.GameObject
             }
             ShipSetter(thisShip, len);
         }
+        //подсчёт кораблей
+        //public int ShipsRead()
+        //{
+        //    int result = 0;
+        //    for(int i=1; i<=10; i++)
+        //    {
+        //        for(int j=1; j<=10; j++)
+        //        {
+        //            if (PlayedIntMap[i, j] == 1)
+        //            {
 
-        public int ShipsRead()
-        {
-            int result = 0;
-            for(int i=1; i<=10; i++)
-            {
-                for(int j=1; j<=10; j++)
-                {
-                    if (PlayedIntMap[i, j] == 1)
-                    {
-
-                        result += 1;
-                    }
-                }
-            }
-        }
+        //                result += 1;
+        //            }
+        //        }
+        //    }
+        //}
 
         /* Метод - установщик кораблей */
         private void ShipSetter(int[,] list, int len)

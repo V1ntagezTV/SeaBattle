@@ -5,15 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WarShips"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="400">
+        Title="MainWindow" ResizeMode="NoResize" Height="450" Width="400">
     <Grid>
-        
-        <Grid Background="Aqua" Height="180" Width="180" HorizontalAlignment="Left">
-            <TextBlock Name="TextBlock"  TextAlignment="Center"></TextBlock>
-        </Grid>
-        
-        <Grid Background="Aqua" Height="180" Width="180" HorizontalAlignment="Right">
-            <TextBlock Name="TextBlock1"  TextAlignment="Center"></TextBlock>
-        </Grid>
+        <Frame x:Name="frame"></Frame>
     </Grid>
 </Window>

@@ -1,0 +1,31 @@
+﻿<Page x:Class="WarShips.Pages.EditPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WarShips.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="400"
+      Title="EditPage">
+
+    <Grid>
+        
+            <Grid
+                Name="g_myMap"
+                Background="LightCyan"
+                Margin="10" 
+                Height="180"
+                Width="180"
+                HorizontalAlignment="Left">
+            <Border BorderBrush="Black" BorderThickness="4"/>
+        </Grid>
+        <StackPanel Height="180" Width="180" HorizontalAlignment="Right" Margin="10" >
+            <TextBlock TextAlignment="Center">Настройки</TextBlock>
+            <RadioButton GroupName="length" Content="1 Length"/>
+            <RadioButton GroupName="length" Content="2 Length"/>
+            <RadioButton GroupName="length" Content="3 Length"/>
+            <RadioButton GroupName="length" Content="4 Length"/>
+        </StackPanel>
+        <Button Height="20" Width="80" Margin="0,340">Готово!</Button>
+    </Grid>
+</Page>
