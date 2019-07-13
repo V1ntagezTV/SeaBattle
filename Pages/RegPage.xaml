@@ -11,7 +11,7 @@
     <Grid>
         <TextBlock Height="70" TextAlignment="Center" Margin="0,0,0,200"
                    FontSize="40">SEA BATTLE</TextBlock>
-        <TextBox Height="20" Width="110">Введите никнейм!</TextBox>
-        <Button Height="20" Width="55" Margin="0,245">SAVE</Button>
+        <TextBox x:Name="tb_nickname" Height="20" Width="110" PreviewMouseUp="Tb_nickname_MouseEnter">Введите никнейм!</TextBox>
+        <Button x:Name="b_start" Click="B_start_Click" Height="20" Width="55" VerticalAlignment="Top" Margin="0,230,0,0">Start!</Button>
     </Grid>
 </Page>

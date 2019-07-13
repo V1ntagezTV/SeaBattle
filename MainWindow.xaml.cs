@@ -27,8 +27,8 @@ namespace WarShips
             InitializeComponent();
             Pages.EditPage editPage = new Pages.EditPage();
             Pages.FightPage fightPage = new Pages.FightPage();
-            Pages.RegPage regPage = new Pages.RegPage();
-            frame.Navigate(editPage);
+            Pages.RegPage regPage = new Pages.RegPage(frame, editPage);
+            frame.Navigate(regPage);
             //Player Insur = new Player("Insur", "Black");
             //Player Alexandr = new Player("Leha", "Red");
 

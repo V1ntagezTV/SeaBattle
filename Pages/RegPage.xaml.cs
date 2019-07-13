@@ -20,9 +20,25 @@ namespace WarShips.Pages
     /// </summary>
     public partial class RegPage : Page
     {
-        public RegPage()
+        Frame frame;
+        EditPage editPage;
+        public RegPage(Frame frame, EditPage editPage)
         {
+            this.editPage = editPage;
+            this.frame = frame;
             InitializeComponent();
+        }
+
+        private void Tb_nickname_MouseEnter(object sender, MouseEventArgs e)
+        {
+            if (tb_nickname.Text == "Введите никнейм!")
+                tb_nickname.Text = "";
+            return;
+        }
+
+        private void B_start_Click(object sender, RoutedEventArgs e)
+        {
+            frame.Navigate(editPage);
         }
     }
 }

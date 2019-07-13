@@ -21,7 +21,7 @@
         </Grid>
         <StackPanel Height="180" Width="180" HorizontalAlignment="Right" Margin="10" >
             <TextBlock TextAlignment="Center">Настройки</TextBlock>
-            <RadioButton GroupName="length" Content="1 Length"/>
+            <RadioButton GroupName="length" Content="1 Length" IsEnabled="True"/>
             <RadioButton GroupName="length" Content="2 Length"/>
             <RadioButton GroupName="length" Content="3 Length"/>
             <RadioButton GroupName="length" Content="4 Length"/>

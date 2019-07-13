@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WarShips"
         mc:Ignorable="d"
         Title="MainWindow" ResizeMode="NoResize" Height="450" Width="400">
-    <Grid>
+    <Grid Background="AntiqueWhite">
         <Frame x:Name="frame"></Frame>
     </Grid>
 </Window>
